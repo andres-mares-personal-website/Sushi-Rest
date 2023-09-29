@@ -1,0 +1,81 @@
+* {
+    background-color: rgb(1, 21, 21);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid rgb(212, 180, 0);
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    animation: fadeIn 2s;
+}
+
+nav {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 2s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+nav a {
+    color: white;
+    float: center;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+.container {
+    border-left: 1px solid rgb(212, 180, 0);
+    border-right: 1px solid rgb(212, 180, 0);
+    padding: 50px;
+    background: rgb(2, 51, 51);
+    animation: fadeIn 2s;
+}
+
+form {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(2, 51, 51);
+    animation: fadeIn 2s;
+}
+
+p {
+    background: rgb(2, 51, 51);
+    color: white;
+    animation: fadeIn 2s;
+}
+
+input[type="text"],
+textarea {
+    background-color: #d1d1d1;
+}
+
+input[type="date"],
+textarea {
+    background-color: #d1d1d1;
+}
+
+input[type="time"],
+textarea {
+    background-color: #d1d1d1;
+}
+.button {
+    background-color: #d1d1d1;
+}
+@keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

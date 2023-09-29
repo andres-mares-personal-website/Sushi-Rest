@@ -1,0 +1,37 @@
+* {
+    background-color: rgb(1, 21, 21);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid rgb(212, 180, 0);
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    animation: fadeIn 2s;
+}
+
+nav {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 2s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+nav a {
+    color: white;
+    float: center;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
